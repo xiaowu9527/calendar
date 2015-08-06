@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">android_calendar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="custom_weekdays">
+        <item>S</item>
+        <item>M</item>
+        <item>T</item>
+        <item>W</item>
+        <item>T</item>
+        <item>F</item>
+        <item>S</item>
+    </string-array>
+    <string-array name="custom_myweekdays">
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+    </string-array>
+
+    <string-array name="custom_months">
+        <item>JAN</item>
+        <item>Feb</item>
+        <item>MARCH</item>
+        <item>April</item>
+        <item>MAY</item>
+        <item>June</item>
+        <item>JULY</item>
+        <item>Aug</item>
+        <item>SEPT</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>DEC</item>
+    </string-array>
+    <string-array name="custom_mymonths">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+</resources>

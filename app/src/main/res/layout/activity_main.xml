@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="我的日历"
+        android:background="#9400D3"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mcv_showOtherDates="true"
+        app:mcv_tileSize="45dp"
+        app:mcv_dateTextAppearance="@style/dateTextAppeararent"
+        app:mcv_weekDayTextAppearance="@style/monthTextAppeararent"
+        app:mcv_headerTextAppearance="@style/headerTextAppeararent"
+        app:mcv_weekDayLabels="@array/custom_weekdays"
+        app:mcv_monthLabels="@array/custom_mymonths"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#000000"></View>
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"/>
+</LinearLayout>
